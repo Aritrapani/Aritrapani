@@ -1,0 +1,32 @@
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f6f6f6;
+}
+
+.login-container > img{
+    height: 150px;
+    object-fit: contain;
+}
+
+
+.login-container{
+    padding: 60px;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.login-container > .MuiButton-root	{
+    color: white;
+    margin-top: 50px;
+    text-transform: inherit !important;
+    background-color: #0a8d48;
+}
+
+.login-container > .MuiButton-root:hover{
+    background-color: #116e3c;
+}
